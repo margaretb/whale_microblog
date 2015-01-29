@@ -4,9 +4,8 @@ class CreateUsersTable < ActiveRecord::Migration
       t.string :username
       t.string :password
       t.string :fname
-      t.string :species
+      t.string :breed
       t.integer :age
-      t.string :location
     end
   end
 end
